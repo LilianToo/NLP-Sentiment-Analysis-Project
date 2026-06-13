@@ -5,6 +5,7 @@
 In this project, we studied how people feel about different companies and products during SXSW by analyzing tweets from a dataset "judge-1377884607_tweet_product_company". Each tweet includes the company, product category and corresponding sentiment labels. This makes it useful for understanding customer perception and brand performance.
 
 # Business understanding
+
 Nowadays, customers express their satisfaction and dissatisfaction on social media especially on platforms like Twitter. The tweets reveal how people feel about brands, products and their customer experience.
 Companies are increasingly relying on sentiment analysis to monitor public perception, identify dissatisfaction early, and guide marketing, product design, and support decision-making.
 
@@ -59,18 +60,23 @@ Our analysis revealed key insights such as:
 We conclude with three actionable recommendations based on sentiment patterns that can help companies improve brand reputation and strengthen customer satisfaction.
 
 # Strategic Offering
+
  The analysis provides us quantified brand sentiment and competitive intelligence that can help companies make evidence-based decisions in marketing, product design and customer experience.
 
 # Data Modeling
+
 We transformed text into features that machine learning models can understand, i.e TF-IDF vectors or embeddings and selecting models capable of learning patterns that indicates the emotion behind each tweet. Models used:
 
 # 1.Logistic Regression (Baseline Model)
+
 This is a simple and interpretable linear model that works well with text represented as TF-IDF or word counts.
 
 # 2.Random Forest
+
 It is an ensemble of decision trees and good at handling complex, non-linear data provides feature importance and resistant to overfitting as well as noise.
 
 # 3. Neural Networks
+
 Flexible and powerful for modeling non-linear relationships.
 Can combine multiple feature types(embeddings + TF-IDF)
 This model learns word interactions automatically, often more accurately.
@@ -169,11 +175,11 @@ Therefore, the conservative bias reduces false positives but limits sensitivity 
 
 1. Negative Emotion
 
-
 Total actual negatives: 114
 Correctly identified: 65 (57%)
 Misclassified as Neutral: 32 (28.1%)
 Misclassified as Positive: 17 (14.9%)
+
 Business meaning: The model catches about half of all negative comments; the rest are softened into neutral or positive sentiment.
 
 2. Neutral (No Emotion Toward Brand/Product)
@@ -205,32 +211,45 @@ Benchmarking conversation volume
 
 <img width="1181" height="790" alt="image" src="https://github.com/user-attachments/assets/78a115b4-e2dc-41c3-b23e-b1fcc76d60ae" />
 
-<img width="1181" height="790" alt="image" src="https://github.com/user-attachments/assets/f27c8e3e-0e2e-4b72-af97-b82323712dfd" />
+
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/1276fe04-5cfb-4576-bc7c-69828380f42c" />
 
 STRATEGIC RECOMMENDATIONS
 
 FOR MARKETING DIRECTORS:
+
 1. CONTINUE SUCCESSFUL STRATEGIES
+   
    • Apple: Maintain pop-up store approach for major events
+   
    • Google: Continue engaging party and event strategy
 
-2. ADDRESS PAIN POINTS
+3. ADDRESS PAIN POINTS
    • Monitor negative sentiment around specific product issues
    • Implement real-time social listening for rapid response
 
 FOR BRAND STRATEGY CONSULTANTS:
+
 1. QUANTITATIVE COMPETITIVE ANALYSIS
+
    • Use sentiment scores for objective brand positioning
+   
    • Identify market gaps and opportunities
 
-2. REAL-TIME CAMPAIGN OPTIMIZATION
+3. REAL-TIME CAMPAIGN OPTIMIZATION
+
    • Implement BrandPulse for ongoing campaign monitoring
+   
    • Adjust strategies based on live sentiment data
 
 BUSINESS VALUE SUMMARY
+
 ✓ Data-driven decision making replaces guesswork
+
 ✓ Real-time competitive intelligence
+
 ✓ Quantifiable ROI measurement for marketing spend
+
 ✓ Proactive brand reputation management
 
  
