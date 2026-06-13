@@ -68,14 +68,17 @@ We transformed text into features that machine learning models can understand, i
 This is a simple and interpretable linear model that works well with text represented as TF-IDF or word counts.
 
 # 2.Random Forest
-It is an ensemble of decision trees and good at handling complex,non-linear data Provides feature importance and resistant to overfitting as well as noise.
+It is an ensemble of decision trees and good at handling complex, non-linear data provides feature importance and resistant to overfitting as well as noise.
 
 # 3. Neural Networks
 Flexible and powerful for modeling non-linear relationships.
 Can combine multiple feature types(embeddings + TF-IDF)
-This model learns word interactions automatically, often moreaccu rately.
+This model learns word interactions automatically, often more accurately.
 
-# 4.BERT
+<img width="1489" height="490" alt="image" src="https://github.com/user-attachments/assets/542c8e7f-b949-4b6e-a7bb-750f262cf6c9" />
+
+
+# 4. BERT
 
 This is a pre-trained deep learning model specialized in language understanding.
 Particularly effective for short, informal text like tweets, improving emotion classification by leveraging semantic understanding beyond simple word counts.
@@ -94,13 +97,6 @@ We conclude with three actionable recommendations based on sentiment patterns th
 
 # Strategic Offering
  The analysis provides us quantified brand sentiment and competitive intelligence that can help companies make evidence-based decisions in marketing, product design and customer experience.
-=== MODEL COMPARISON ===
-                      Model  Macro F1-Score  Accuracy
-0  Baseline (Most Frequent)          0.2542    0.6163
-1       Logistic Regression          0.5959    0.6946
-2             Random Forest          0.5444    0.6513
-3            Neural Network          0.3174    0.5634
-4                      BERT          0.6521    0.7271
 
 # RESULTS
 # 1. Logistic Regression
@@ -128,17 +124,18 @@ Accuracy = 0.72
 Macro F1 = 0.62
 The BERT model achieves an accuracy of 0.72 and a macro F1 score of 0.62, outperforming previous models on all sentiment classes. This indicates the model reliably predicts negative, positive, and neutral emotions toward the brand, showing strong generalization and balanced performance across classes.
 
-Model Selection:  BERT was our best performing model hence we chose it.
+Model Selection:  BERT was our best-performing-model hence we chose it.
+
 
 <img width="1489" height="590" alt="image" src="https://github.com/user-attachments/assets/0267f577-56ab-465e-9e60-5e114bbf4323" />
 
-<img width="1489" height="590" alt="image" src="https://github.com/user-attachments/assets/526091fa-b734-4631-8bf7-8bb1b50c2754" />
 
 
 
 
 
 <img width="766" height="590" alt="image" src="https://github.com/user-attachments/assets/48a29e3d-5270-4d43-835d-c6dd8059ab26" />
+
 
 # Model Performance Insights
 
@@ -163,11 +160,78 @@ Model performance on positive emotion.
 Precision and recall are balanced (at 0.65), but misclassifications into neutral remain common. 
 
 
-Clearly the model can detect positivity better than negativity, but struggles with borderline cases.
+Clearly, the model can detect positivity better than negativity, but struggles with borderline cases.
 
 The model shows bias toward neutrality.
 
 Positive and negative emotions are often misclassified as "No Emotion".
 Therefore, the conservative bias reduces false positives but limits sensitivity to emotional signals.
 
+1. Negative Emotion
+
+
+Total actual negatives: 114
+Correctly identified: 65 (57%)
+Misclassified as Neutral: 32 (28.1%)
+Misclassified as Positive: 17 (14.9%)
+Business meaning: The model catches about half of all negative comments; the rest are softened into neutral or positive sentiment.
+
+2. Neutral (No Emotion Toward Brand/Product)
+
+Total actual neutral tweets: 1,106
+Correctly identified: 846 (76.5%)
+Misclassified as Negative: 50 (4.5%)
+Misclassified as Positive: 210 (19.0%)
+Business meaning: Neutral detection is strong, forming a reliable backbone for general sentiment tracking.
+
+3. Positive Emotion
+
+Total actual positives: 594
+Correctly identified: 398 (67.0%)
+Misclassified as Neutral: 175 (29.5%)
+Misclassified as Negative: 21 (3.5%)
+Business meaning: Positive sentiment is captured reasonably well, but nearly one-third is diluted into neutral.
+
+Business Impact
+Positive Business Impact
+High reliability for neutral sentiment (76.5% correct) gives an accurate view of brand mentions and general engagement. Two-thirds of positive sentiment detected correctly (67.0%) supports tracking customer delight and campaign uplift. 
+
+The model provides a strong baseline for:
+
+Brand health measurement
+Customer satisfaction trends
+ROI analysis for marketing activities
+Benchmarking conversation volume
+
+<img width="1181" height="790" alt="image" src="https://github.com/user-attachments/assets/78a115b4-e2dc-41c3-b23e-b1fcc76d60ae" />
+
+<img width="1181" height="790" alt="image" src="https://github.com/user-attachments/assets/f27c8e3e-0e2e-4b72-af97-b82323712dfd" />
+
+STRATEGIC RECOMMENDATIONS
+
+FOR MARKETING DIRECTORS:
+1. CONTINUE SUCCESSFUL STRATEGIES
+   • Apple: Maintain pop-up store approach for major events
+   • Google: Continue engaging party and event strategy
+
+2. ADDRESS PAIN POINTS
+   • Monitor negative sentiment around specific product issues
+   • Implement real-time social listening for rapid response
+
+FOR BRAND STRATEGY CONSULTANTS:
+1. QUANTITATIVE COMPETITIVE ANALYSIS
+   • Use sentiment scores for objective brand positioning
+   • Identify market gaps and opportunities
+
+2. REAL-TIME CAMPAIGN OPTIMIZATION
+   • Implement BrandPulse for ongoing campaign monitoring
+   • Adjust strategies based on live sentiment data
+
+BUSINESS VALUE SUMMARY
+✓ Data-driven decision making replaces guesswork
+✓ Real-time competitive intelligence
+✓ Quantifiable ROI measurement for marketing spend
+✓ Proactive brand reputation management
+
+ 
  
