@@ -242,8 +242,6 @@ FOR BRAND STRATEGY CONSULTANTS:
    • Identify market gaps and opportunities
 
 3. REAL-TIME CAMPAIGN OPTIMIZATION
-
-   • Implement BrandPulse for ongoing campaign monitoring
    
    • Adjust strategies based on live sentiment data
 
