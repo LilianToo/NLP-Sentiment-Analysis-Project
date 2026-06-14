@@ -1,5 +1,38 @@
 <img width="1200" height="674" alt="image" src="https://github.com/user-attachments/assets/6f38db8a-1283-460e-b47e-e3486f05051c" />
 
+# NLP Sentiment Analysis Project
+
+## 📌 Project Summary
+This project applies the Data Science NLP methodology to analyze sentiment in tweets related to product and brand mentions.  
+- **Business Understanding**: Identify how users express emotions toward brands and products on social media.  
+- **Data Preparation**: Cleaned and preprocessed tweet data, including tokenization, stopword removal, and sentiment labeling.  
+- **Modeling**: Implemented machine learning models (e.g., Logistic Regression, Random Forest, and Neural Networks) to classify sentiment.  
+- **Evaluation**: Compared model performance using accuracy, precision, recall, and F1-score.  
+- **Deployment Insight**: Results highlight how concise yet informative messaging aligns with natural user behavior.
+
+---
+
+## 📂 Deliverables
+- [Presentation Slides](presentation/presentation.pdf)  
+- [Dataset](data/judge-1377884607_tweet_product_company.csv)  
+- [Sources](https://data.world/crowdflower/brands-and-product-emotions)  
+
+---
+
+## 📁 Repository Structure
+- `data/` → raw and processed datasets  
+- `notebooks/` → Jupyter notebooks for preprocessing, modeling, and evaluation  
+- `presentation/` → stakeholder slides (PDF/PowerPoint)  
+- `README.md` → project summary and navigation instructions  
+
+---
+
+## How to Navigate & Reproduce
+   **To clone the Repository**
+   ```bash
+   git clone https://github.com/LilianToo/NLP-Sentiment-Analysis-Project.git
+   cd nlp-sentiment-analysis-project
+
 # SXSW SENTIMENT ANALYSIS
 
 # Overview
