@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+logs/
+results/
+nn_tuning/
+tuner_dir/
+.ipynb_checkpoints/
+*.h5
+*.pt
+*.safetensors
