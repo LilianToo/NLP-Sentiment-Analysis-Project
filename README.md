@@ -1,3 +1,5 @@
+<img width="1200" height="674" alt="image" src="https://github.com/user-attachments/assets/6f38db8a-1283-460e-b47e-e3486f05051c" />
+
 # SXSW SENTIMENT ANALYSIS
 
 # Overview
