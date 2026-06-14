@@ -28,7 +28,7 @@ This project applies the Data Science NLP methodology to analyze sentiment in tw
 ---
 
 ## How to Navigate & Reproduce
-   **To clone the Repository**
+## **To clone the Repository**
    ```bash
    git clone https://github.com/LilianToo/NLP-Sentiment-Analysis-Project.git
    cd nlp-sentiment-analysis-project
