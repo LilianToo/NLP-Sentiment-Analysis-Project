@@ -224,3 +224,13 @@ tuner_dir/
 *.h5
 *.pt
 *.safetensors
+# Project artifacts
+logs/
+results/
+nn_tuning/
+tuner_dir/
+.ipynb_checkpoints/
+*.h5
+*.pt
+*.safetensors
+
