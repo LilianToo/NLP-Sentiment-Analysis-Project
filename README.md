@@ -36,7 +36,7 @@ We prepared the data by using the following:
 8. Visualization.
 
 # Data Preparation
-This step involves handling the missing values,cleaning the text through lowercasing, removing punctuation, and stopwords to reduce noise and standardize the text for better vectorization.
+This step involves handling missing values,cleaning the text through lowercasing, removing punctuation, and stopwords to reduce noise and standardize the text for better vectorization.
 The cleaned text is then tokenized and lemmatized to reduce vocabulary size by converting words to their base forms.
 
 The encoded target labels converted categorical emotion labels into numerical format for modeling.
@@ -218,14 +218,17 @@ STRATEGIC RECOMMENDATIONS
 
 FOR MARKETING DIRECTORS:
 
-1. CONTINUE SUCCESSFUL STRATEGIES
+ CONTINUE SUCCESSFUL STRATEGIES
    
    • Apple: Maintain pop-up store approach for major events
    
    • Google: Continue engaging party and event strategy
+   
 
-3. ADDRESS PAIN POINTS
+ ADDRESS PAIN POINTS
+   
    • Monitor negative sentiment around specific product issues
+   
    • Implement real-time social listening for rapid response
 
 FOR BRAND STRATEGY CONSULTANTS:
@@ -251,6 +254,12 @@ BUSINESS VALUE SUMMARY
 ✓ Quantifiable ROI measurement for marketing spend
 
 ✓ Proactive brand reputation management
+
+# RECOMMENDATION
+
+1. Include emotional signals such as emoji analysis, polarity scoring.
+   
+2. Engage an ensemble to stabilize sentiment predictions. 
 
  
  
